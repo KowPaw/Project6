@@ -16,8 +16,10 @@ fieldset {
   border: 2px solid black; }
   fieldset legend {
     border-bottom: none;
-    width: 50%; }
+    width: 50%;
+    margin: 0 auto 20px; }
     fieldset legend h3 {
+      text-align: center;
       font-size: 34px;
       font-weight: 900; }
 
