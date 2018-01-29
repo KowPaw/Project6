@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin-ext");
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif; }
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 2px; }
+
+p {
+  font-size: 15px; }
+
+fieldset {
+  border: 2px solid black; }
+  fieldset legend {
+    border-bottom: none;
+    width: 50%; }
+    fieldset legend h3 {
+      font-size: 34px;
+      font-weight: 900; }
+
+header {
+  background: url("../images/hero.jpg");
+  background-size: cover; }
+  header .row {
+    padding: 230px 0 60px;
+    color: white; }
+    header .row img:first-of-type {
+      width: 70px; }
+    header .row h1 {
+      margin: 75px 0 35px;
+      font-size: 56px; }
+    header .row p {
+      margin-bottom: 230px;
+      font-weight: 500;
+      line-height: 35px; }
+    header .row img:nth-of-type(2) {
+      width: 25px; }
+
+#about .container {
+  padding: 70px 15px 140px; }
+  #about .container p:first-of-type {
+    margin: 15px 0; }
+  #about .container p:nth-of-type(2) {
+    margin: 25px 0 40px; }
+
+#services {
+  background: url("../images/pen.jpg");
+  background-size: cover;
+  color: white; }
+  #services .container {
+    padding: 90px 15px 100px; }
+    #services .container fieldset {
+      border-color: white; }
+      #services .container fieldset legend {
+        color: white; }
+    #services .container p {
+      margin: 10px 0 45px;
+      line-height: 25px; }
+
+#do .container {
+  padding: 80px 15px 100px; }
+  #do .container fieldset {
+    padding-bottom: 30px; }
+    #do .container fieldset img {
+      width: 75px;
+      margin: 50px 0 20px; }
+    #do .container fieldset h4 {
+      font-weight: 900; }
+    #do .container fieldset p {
+      margin: 30px 0 45px;
+      line-height: 25px; }
+
+#gallery .col-lg-4 {
+  padding: 5px 0; }
+#gallery .col-lg-4:nth-of-type(2),
+#gallery .col-lg-4:nth-of-type(5) {
+  padding: 5px 10px; }
+#gallery .col-md-6:nth-of-type(2),
+#gallery .col-md-6:nth-of-type(4),
+#gallery .col-md-6:nth-of-type(6) {
+  padding: 5px 0 5px 10px; }
+#gallery .col-md-6:nth-of-type(5) {
+  padding: 5px 0; }
+#gallery .col-sm-12:nth-of-type(2),
+#gallery .col-sm-12:nth-of-type(4),
+#gallery .col-sm-12:nth-of-type(6) {
+  padding-left: 0; }
+#gallery [class*="back-"] {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 140px 40px 20px; }
+  #gallery [class*="back-"] h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: white; }
+#gallery .back-1 {
+  background: url(../images/box-right.jpg); }
+#gallery .back-2 {
+  background: url(../images/laptop-right.jpg); }
+#gallery .back-3 {
+  background: url(../images/tablet-left.jpg); }
+#gallery .back-4 {
+  background: url(../images/box-left.jpg); }
+#gallery .back-5 {
+  background: url(../images/tablet-right.jpg); }
+#gallery .back-6 {
+  background: url(../images/laptop-left.jpg); }
+
+#contact .container {
+  padding: 90px 15px 40px; }
+  #contact .container p {
+    margin: 15px 0 30px;
+    line-height: 25px; }
+  #contact .container button {
+    color: white;
+    background: black;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 20px 125px;
+    margin-bottom: 50px; }
+
+footer p {
+  display: inline-block;
+  margin: 30px 35px 70px;
+  font-size: 14px; }
+
+@media (max-width: 768px) {
+  fieldset legend {
+    width: 75%; }
+
+  .jumbotron {
+    padding: 0; }
+    .jumbotron .row {
+      padding: 180px 10px 40px; } }
+@media (max-width: 425px) {
+  header .row {
+    padding: 30px 10px 30px; }
+    header .row p {
+      margin-bottom: 100px; }
+
+  #contact .container button {
+    padding: 20px 50px; } }
+
+/*# sourceMappingURL=style.css.map */
